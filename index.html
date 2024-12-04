@@ -9,36 +9,53 @@
     <link rel="stylesheet" href="styles.css">
     <title>Frontend Mentor | Product preview card component</title>
 
-
   </head>
 
   <body>
     <main class="product">
+
       <article class="product__image">
         <figure id="mobile">
           <img src="images/image-product-mobile.jpg" alt="image of a perfume bottle" width="686" height="480">
-          <figcaptio class="offscreen">Gabrielle Essence Eau De Parfum</figcaption>
+          <figcaption class="offscreen">Gabrielle Essence Eau De Parfum</figcaption>
         </figure>
         <figure id="desktop">
           <img src="images/image-product-desktop.jpg" alt="image of a perfume bottle" width="600" height="900">
           <figcaption class="offscreen">Gabrielle Essence Eau De Parfum</figcaption>
-        </figure>
-
+          </div>
       </article>
 
       <article class="product__info">
-        <p class="info__heading">Perfume</p>
-        <p class="info__brand">Gabrielle Essence Eau De Parfum
-        </p>
-        <p class="info__detail">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-          Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="info__price">
-          <span class="info__price--main">$149.99</span>
-          <span class="info__price--alt">$169.99</span>
-        </div>
-        <button>Add to Cart</button>
+
+        <section class="info__heading">
+          <p>Perfume</p>
+        </section>
+
+        <section class="info__brand">
+          <h2>Gabrielle Essence Eau De Parfum</h2>
+        </section>
+
+        <section>
+          <p class="info__detail">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+        </section>
+        <section class="info__price">
+          <h2 class="info__price--main">$149.99</h2>
+          <!-- <span>&nbsp;&nbsp;&nbsp;</span> -->
+          <p class="info__price--alt">$169.99</p>
+        </section>
+        <section class="cart">
+          <button>
+            <figure class="cart__figure">
+              <img class="cart__icon" src="images/icon-cart.svg" alt="Cart" width="15" height="16">
+              <figcaption class="cart__caption">Add to Cart</figcaption>
+            </figure>
+          </button>
+        </section>
+
       </article>
+
     </main>
 
 
